@@ -1,12 +1,12 @@
 <template>
   <h1>Home</h1>
-  <button @click=' counterStore.increment()'>按钮</button>
-  <div>数据：{{ counterStore.count }}</div>
+  <button @click=' homeStore.increment()'>按钮</button>
+  <div>数据：{{ homeStore.count }}</div>
 </template>
 
 <script setup>
-import { useCounterStore } from '@/stores/home'
-const counterStore = useCounterStore()
+import { useHomeStore } from '@/stores/home'
+const homeStore = useHomeStore()
 </script>
 
 <style scoped>

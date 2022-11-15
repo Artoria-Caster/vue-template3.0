@@ -9,7 +9,7 @@
 //一个登录的示例
 // //内网登录
 // export const userLogin = (params, success, failed) => {
-//     http.post({}, "/gisadmin-system/auth/login", params, (res) => {
+//     http.post({}, "/admin-system/auth/login", params, (res) => {
 //         //内网登录成功
 //         if (res.code === 200) {
 //             success && success()
@@ -22,6 +22,5 @@
 //         failed && failed()
 //     })
 // }
-
 
 // export default http

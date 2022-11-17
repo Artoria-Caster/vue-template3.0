@@ -1,4 +1,6 @@
 // 国际化
+// noinspection NpmUsedModulesInstalled
+
 import { createI18n } from 'vue-i18n'
 //这个是帮助我们导入自定义语言包的，详情可以看vite-plugin-vue-i18n插件文档
 import messages from '@intlify/vite-plugin-vue-i18n/messages'
